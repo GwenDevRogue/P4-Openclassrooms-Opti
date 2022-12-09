@@ -168,7 +168,7 @@ a:hover {
 }
 
 .d-bloc .panel button:hover {
-    color: rgba(0, 0, 0, 10);
+    color: rgba(0, 0, 0, .7);
 }
 
 .d-bloc .panel icon {
@@ -335,6 +335,7 @@ a:hover {
 .nav > li a:hover,
 .nav > li a:focus {
     background: transparent;
+    text-decoration:underline;
 }
 
 .navbar-toggle {
