@@ -3,10 +3,13 @@ body {
     padding: 0;
     background: #FFF;
     overflow-x: hidden;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+   /* -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;*/
 }
-
+.mail:hover{
+    text-decoration: underline;
+    font-size: large;
+}
 a,
 button {
     transition: all .3s ease-in-out;
@@ -133,7 +136,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: white;
+    color: black;
 }
 
 .d-bloc .a-btn:hover,
@@ -150,7 +153,7 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: black;
+    color: white;
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -738,7 +741,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .portfolio-thumb {
@@ -761,7 +764,6 @@ h4 {
 
 .bold-link {
     font-weight: 900;
-    text-decoration: underline!important;
 }
 
 .bgc-white {
@@ -792,10 +794,12 @@ h4 {
 
 .ltc-white {
     color: #FFFFFF!important;
+    text-decoration: none;
 }
 
 .ltc-white:hover {
-    color: #cccccc!important;
+    color: black!important;
+    text-decoration: underline;
 }
 
 .ltc-atomic-tangerine {
