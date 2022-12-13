@@ -10,6 +10,17 @@ body {
     text-decoration: underline;
     font-size: large;
 }
+
+.logo-header{
+    height: 40px;
+    width: auto;
+}
+
+.image-resize-mode{
+    width: 100px;
+    height: 100px;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
